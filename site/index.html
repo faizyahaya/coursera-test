@@ -3,14 +3,158 @@
   <head>
     <meta charset="utf-8">
     <title>hello faiz</title>
+
+  <style media="screen">
+  * {
+    box-sizing: border-box;
+  }
+    body {
+      background: gray;
+      margin: 0;
+    }
+
+    .p1 {
+      background: dodgerblue;
+      width: 100%;
+      height: inherit;
+      position: relative;
+    }
+
+    @media (min-width: 1200px) {
+      .p1 {
+        background: dodgerblue;
+        width: 80%;
+      }
+
+      @media (min-width: 960px) and (max-width: 1199px) {
+        .p1 {
+          width: 50%;
+        }
+
+      }
+
+    }
+
+    .p2 {
+      background: darkgreen;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      position: absolute;
+      top: 50px;
+      left: 55px;
+    }
+
+    .p3 {
+      background: darkorange;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+      position: absolute;
+      left: 55px;
+      top: 15px;
+    }
+
+    .p4 {
+      background: darkred;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+    }
+
+    .p5 {
+      background: green;
+      width: 50px;
+      height: 50px;
+      border: 1px solid black;
+    }
+
+
+    .p {
+      width: 100%;
+      height: 200px;
+      background-color: white;
+      border: 1px solid black;
+      clear: both;
+    }
+    #growth {
+      width: 50%;
+      background: green;
+      border: 1px solid black;
+      float: left;
+    }
+
+    .growth {
+      width: 50%;
+      background: green;
+      border: 1px solid black;
+      float: left;
+    }
+
+    .lg-md-ct {
+      width: 100%;
+    }
+
+    .lg-md-ct  p {
+      background-color: red;
+      width: 90%;
+      height: 150px;
+      border: 2px solid black;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    @media (min-width: 1200px) {
+      .lg-md-3 {
+        width: 25%;
+        float: left;
+      }
+    }
+
+    @media (min-width: 950px) and (max-width: 1199px) {
+      .sm-md-6 {
+        width: 50%;
+        float: left;
+      }
+
+    }
+
+  </style>
   </head>
   <body>
 
     <h1>hello faiz, wow this great</h1>
-    <p>what is happening in  the house <br>
-    i feel like john is &gt; samuel & simi is &lt; &copy; "a long time ago
-  the four nation lives together when the fire nation attack only
-   the&nbsp;avatar&nbsp;master&nbsp;of&nbsp;four&nbsp;element
-  could stop this but when the world needed  him most he vanished" </p>
+    <!-- <div class="p">
+      <p id="growth">what is happening in  the house <br>
+      i feel like john is &gt; samuel & simi is &lt; &copy;</p>
+      <p class="growth">"a long time ago
+    the four nation lives together when the fire nation attack only
+     the&nbsp;avatar&nbsp;master&nbsp;of&nbsp;four&nbsp;element
+    could stop this but when the world needed  him most he vanished"</p>
+    </div>
+
+    <div class="p1">
+      <p class="p2"></p>
+      <p class="p3"></p>
+      <p class="p4"></p>
+      <p class="p5"></p>
+
+    </div> -->
+
+    <div class="lg-md-ct">
+        <div class="lg-md-3 sm-md-6"><p>box 1</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 2</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 3</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 4</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 5</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 6</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 7</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 8</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 9</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 10</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 11</p></div>
+        <div class="lg-md-3 sm-md-6"><p>box 12</p></div>
+
+    </div>
+
   </body>
 </html>
