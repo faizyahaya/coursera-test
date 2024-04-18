@@ -11,6 +11,7 @@ h1 {
   font-size: 44px;
   text-transform: capitalize;
   font-weight: bold;
+  font-family: fantasy;
 }
 
 .container {
@@ -46,6 +47,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  overflow: hidden;
 }
 
 @media (min-width: 992px) {
@@ -76,6 +78,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    overflow: hidden;
   }
 
 }
